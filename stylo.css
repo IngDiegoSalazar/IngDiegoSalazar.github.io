@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Orbit', sans-serif;
-    background-image: url(./assetsMP/fondo-campo-batalla-piedra.avif);
+    background-image: url(./fondo-campo-batalla-piedra.avif);
     background-size: 1367px 700px;
 }
 
@@ -80,27 +80,27 @@ input {
 }
 
 #ratigueya:checked+label {
-    border-image: url(./assetsMP/borde-ratigueya.webp) 25 stretch;
+    border-image: url(./borde-ratigueya.webp) 25 stretch;
 }
 
 #ratigueya:hover+label {
-    border-image: url(./assetsMP/borde-ratigueya.webp) 25 stretch;
+    border-image: url(./borde-ratigueya.webp) 25 stretch;
 }
 
 #capipepo:hover+label {
-    border-image: url(./assetsMP/borde-capipepo.avif) 25 stretch;
+    border-image: url(./borde-capipepo.avif) 25 stretch;
 }
 
 #capipepo:checked+label {
-    border-image: url(./assetsMP/borde-capipepo.avif) 25 stretch;
+    border-image: url(./borde-capipepo.avif) 25 stretch;
 }
 
 #hipodoge:hover+label {
-    border-image: url(./assetsMP/borde-hipodoge.jpg) 25 stretch;
+    border-image: url(./borde-hipodoge.jpg) 25 stretch;
 }
 
 #hipodoge:checked+label {
-    border-image: url(./assetsMP/borde-hipodoge.jpg) 25 stretch;
+    border-image: url(./borde-hipodoge.jpg) 25 stretch;
 }
 
 #seleccionar-ataque {
