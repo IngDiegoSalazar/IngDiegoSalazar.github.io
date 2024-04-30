@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,900&family=Orbit&family=Ruwudu&display=swap');
+
+body {
+    font-family: 'Orbit', sans-serif;
+    background-image: url(./assetsMP/fondo-campo-batalla-piedra.avif);
+    background-size: 1367px 700px;
+}
+
+
+
+#seleccionar-mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    background-image: linear-gradient(90deg, #EB5353, #36AE7C, #187498);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitulo {
+    font-size: 40px opacity 0;
+    text-shadow: 1px 1px 2px #EB5353, 0 0 1em #36AE7C, 0 0 0.2em #187498;
+}
+
+
+
+.tarjetas {
+    display: flex;
+    width: 789px;
+    box-shadow: 0 4px 8px 0 #9D7F75, 0 6px 20px 0 #9D7F75;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.tarjetas-mokepon {
+    color: black;
+    height: 140px;
+    padding: 15px;
+    border: 5px solid red;
+    margin: 12px;
+    box-sizing: border-box;
+    display: flex;
+    align-content: space-between;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20PX;
+}
+
+.tarjetas-mokepon img {
+    width: 100px;
+}
+
+
+#boton-mascota {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background: transparent;
+    border: 3px solid aqua;
+    font-family: 'Orbit', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    color: white
+}
+
+input {
+    display: none
+}
+
+#ratigueya:checked+label {
+    border-image: url(./assetsMP/borde-ratigueya.webp) 25 stretch;
+}
+
+#ratigueya:hover+label {
+    border-image: url(./assetsMP/borde-ratigueya.webp) 25 stretch;
+}
+
+#capipepo:hover+label {
+    border-image: url(./assetsMP/borde-capipepo.avif) 25 stretch;
+}
+
+#capipepo:checked+label {
+    border-image: url(./assetsMP/borde-capipepo.avif) 25 stretch;
+}
+
+#hipodoge:hover+label {
+    border-image: url(./assetsMP/borde-hipodoge.jpg) 25 stretch;
+}
+
+#hipodoge:checked+label {
+    border-image: url(./assetsMP/borde-hipodoge.jpg) 25 stretch;
+}
+
+#seleccionar-ataque {
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-ataque {
+    font-family: 'Orbit', sans-serif;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    border: 3px solid aquamarine;
+    width: 90px;
+    height: 44px;
+    justify-content: space-evenly;
+
+}
+
+#mensajes {
+    font-family: 'Orbit', sans-serif;
+    background-color: #9376E0;
+    color: white;
+    width: 380px;
+    height: 93px;
+    margin: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#reiniciar {
+    padding: 5px;
+    text-align: center;
+    flex-direction: column-reverse;
+    height: 85px;
+    width: 290px;
+}
+
+#boton-reiniciar {
+    font-family: 'Orbit', sans-serif;
+    background: transparent;
+    border: none;
+    color: white;
+    flex-direction: column-reverse;
+}
+
+.batalla {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    justify-items: center;
+    text-align: center;
+}
+
+.elementos {
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .tarjetas {
+        flex-direction: column;
+    }
+
+    .elementos {
+        flex-direction: column;
+    }
+}
