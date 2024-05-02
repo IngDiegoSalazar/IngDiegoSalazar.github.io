@@ -2,8 +2,8 @@
 
 body {
     font-family: 'Orbit', sans-serif;
-    background-image: url(./fondo-campo-batalla-piedra.avif);
-    background-size: 1367px 700px;
+    background-image: url(./assetsMP/fondo-romboide.jpg);
+    background-size: 100%;
 }
 
 
@@ -22,7 +22,7 @@ body {
     display: flex;
     align-items: center;
     font-size: 50px;
-    background-image: linear-gradient(90deg, #EB5353, #36AE7C, #187498);
+    background-image: linear-gradient(90deg, #83BEDA, #99C35F, #F47930);
     background-size: 100%;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -30,7 +30,7 @@ body {
 
 .subtitulo {
     font-size: 40px opacity 0;
-    text-shadow: 1px 1px 2px #EB5353, 0 0 1em #36AE7C, 0 0 0.2em #187498;
+    text-shadow: 1px 1px 2px #83BEDA, 0 0 1em #99C35F, 0 0 0.2em #F47930;
 }
 
 
@@ -38,7 +38,7 @@ body {
 .tarjetas {
     display: flex;
     width: 789px;
-    box-shadow: 0 4px 8px 0 #9D7F75, 0 6px 20px 0 #9D7F75;
+    box-shadow: 0px 0px 5px 2.5px #83BEDA, 0px 0px 6px 5px #99C35F, 0px 0px 7px 7.5px #F47930, 0px 0px 8px 10px #AA0F11;
     text-align: center;
     border-radius: 10px;
 }
@@ -80,27 +80,27 @@ input {
 }
 
 #ratigueya:checked+label {
-    border-image: url(./borde-ratigueya.webp) 25 stretch;
+    border-image: url(./assetsMP/borde-ratigueya.webp) 25 stretch;
 }
 
 #ratigueya:hover+label {
-    border-image: url(./borde-ratigueya.webp) 25 stretch;
+    border-image: url(./assetsMP/borde-ratigueya.webp) 25 stretch;
 }
 
 #capipepo:hover+label {
-    border-image: url(./borde-capipepo.avif) 25 stretch;
+    border-image: url(./assetsMP/borde-capipepo.avif) 25 stretch;
 }
 
 #capipepo:checked+label {
-    border-image: url(./borde-capipepo.avif) 25 stretch;
+    border-image: url(./assetsMP/borde-capipepo.avif) 25 stretch;
 }
 
 #hipodoge:hover+label {
-    border-image: url(./borde-hipodoge.jpg) 25 stretch;
+    border-image: url(./assetsMP/borde-hipodoge.jpg) 25 stretch;
 }
 
 #hipodoge:checked+label {
-    border-image: url(./borde-hipodoge.jpg) 25 stretch;
+    border-image: url(./assetsMP/borde-hipodoge.jpg) 25 stretch;
 }
 
 #seleccionar-ataque {
@@ -122,7 +122,7 @@ input {
 
 #mensajes {
     font-family: 'Orbit', sans-serif;
-    background-color: #9376E0;
+    background-image: linear-gradient(90deg, #83BEDA, #99C35F, #F47930);
     color: white;
     width: 380px;
     height: 93px;
